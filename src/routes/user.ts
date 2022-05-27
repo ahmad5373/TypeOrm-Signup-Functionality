@@ -1,6 +1,6 @@
 import * as express from "express";
 import { Router } from "express";
-import { SigninRequest, SignupRequest } from "src/request/auth";
+import { SigninRequest, SignupRequest } from "../request";
 
 import {createUser ,login} from "../controller/user_controller";
 
